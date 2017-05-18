@@ -1,0 +1,11 @@
+#nav{
+	background: #0d3752;
+    height: 0px;
+    color: white!important;
+	/* margin-bottom: 10px; 
+	*/
+	position: fixed;
+	width: 100%;
+	z-index: 1000;
+}
+
