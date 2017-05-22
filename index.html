@@ -70,7 +70,8 @@
               <ul class="dropdown-menu">
                 <li><a href="#">Soul drawer Gru</a></li>
                 <li><a href="#">A Capella director Dave</a></li>
-                <li><a href="#">Coming Soon...</a></li>
+                <!-- <li role="presentation" class="divider"></li> -->
+                <li class="disabled" ><a href="#">Coming Soon...</a></li>
               </ul>
             </li>
             <li><a href="#"></a></li>
@@ -93,8 +94,10 @@
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
       <div class="container">
-        <h2>Hello there!</h2>
-        <p>This is the personal index of Hongru Du, who is trying to list all the stuff he has. The layout of this webpage is based on Bootstrap templates and the content is held on an AWS server. More features are being added to this website. Send me an email (check the top-right corner) if you want to! </p>
+        <h2>
+        <img src="images/psyduck.jpg" class="img-rounded" alt="psyduck" width="40" height="40">
+        Hello there!</h2>
+        <p>This is the personal index of Hongru Du, who is trying to list all the stuff he has and also giving some quick access to some useful resources. The layout of this webpage is based on Bootstrap templates and the content is held on an AWS server. More features are being added to this website. Send me an email (check the top-right corner) if you want to! </p>
         <p>
           <a class="btn btn-primary btn-lg" href="http://getbootstrap.com/getting-started/#download" role="button">Bootstrap &raquo;</a>
           <a class="btn btn-primary btn-lg" href="https://aws.amazon.com/" role="button">AWS &raquo;</a>
@@ -103,7 +106,55 @@
     </div>
 
     <div class="container">
-      <h3>Random pics from my smartphone</h3>  
+      <!-- Example row of columns -->
+      <h2>Recent Updates</h2>
+      
+      <div class="row">
+        <div class="recentupdates">
+          <div class="col-md-4">
+            <h2>Heading</h2>
+            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+            <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+          </div>
+          <div class="col-md-4">
+            <h2>Heading</h2>
+            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+            <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+         </div>
+          <div class="col-md-4">
+            <h2>Heading</h2>
+            <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+            <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+          </div>
+        </div>
+
+        <div id="historyupdates" class="collapse">
+          <div class="col-md-4">
+            <h2>Heading</h2>
+            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+            <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+          </div>
+          <div class="col-md-4">
+            <h2>Heading</h2>
+            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+            <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+         </div>
+          <div class="col-md-4">
+            <h2>Heading</h2>
+            <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+            <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+          </div>
+        </div>
+      </div>
+      <br>
+      <a href="#historyupdates" class="btn btn-info" data-toggle="collapse">Show more/less</a>
+
+      <hr>
+
+    </div> <!-- /container -->
+
+    <div class="container">
+      <h3>Some random pics from my smartphone</h3>  
       <div id="myCarousel" class="carousel slide" data-ride="carousel">
       <!-- Indicators -->
         <ol class="carousel-indicators">
@@ -137,34 +188,19 @@
           <span class="sr-only">Next</span>
         </a>
       </div>
-    </div>
-
-    <div class="container">
-      <!-- Example row of columns -->
-      <div class="row">
-        <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-        </div>
-        <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-       </div>
-        <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-        </div>
-      </div>
 
       <hr>
+    </div>
 
+
+
+
+    <div class="container" id="footer">
+            <hr>
       <footer>
         <p>&copy; 2017 I don't have a company yet, Inc.</p>
       </footer>
-    </div> <!-- /container -->
+    </div><!-- /container -->
 
 
     <!-- Bootstrap core JavaScript
